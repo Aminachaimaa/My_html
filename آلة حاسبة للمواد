@@ -1,0 +1,161 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost:8080/s7m1cal.html
+Subject: =?utf-8?Q?=D8=A2=D9=84=D8=A9=20=D8=AD=D8=A7=D8=B3=D8=A8=D8=A9=20=D9=84=D9?=
+ =?utf-8?Q?=84=D9=85=D9=88=D8=A7=D8=AF?=
+Date: Thu, 19 Dec 2024 12:46:02 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Bj7YKF9OK0W2IneDySelAS3Nm41iZmxn6J5e6cr68g----"
+
+
+------MultipartBoundary--Bj7YKF9OK0W2IneDySelAS3Nm41iZmxn6J5e6cr68g----
+Content-Type: text/html
+Content-ID: <frame-10B556DB7F3C848C8963A7CDEAB93AC4@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: http://localhost:8080/s7m1cal.html
+
+<!DOCTYPE html><html lang="ar"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-f8398304-c869-4921-96a9-ea3625afc12d@mhtml.blink" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آلة حاسبة للمواد</title>
+    
+</head>
+<body>
+    <div class="header">
+        <h2>M1 inb Biomedical Engineering</h2>
+    </div>
+
+    <h1>calculatrice </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Module</th>
+                <th>Coefficient</th>
+                <th>Contrôle</th>
+                <th>Examen</th>
+                <th>n.module*coeff</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Les capteurs biomédicaux</td>
+                <td>2</td>
+                <td><input type="number" id="control1"></td>
+                <td><input type="number" id="exam1"></td>
+                <td id="final1">0</td>
+            </tr>
+            <tr>
+                <td>Microprocesseurs</td>
+                <td>2</td>
+                <td><input type="number" id="control2"></td>
+                <td><input type="number" id="exam2"></td>
+                <td id="final2">0</td>
+            </tr>
+            <tr>
+                <td>Microtechnologie</td>
+                <td>2</td>
+                <td><input type="number" id="control3"></td>
+                <td><input type="number" id="exam3"></td>
+                <td id="final3">0</td>
+            </tr>
+            <tr>
+                <td>Traitement du signal avancé</td>
+                <td>1.5</td>
+                <td><input type="number" id="control4"></td>
+                <td><input type="number" id="exam4"></td>
+                <td id="final4">0</td>
+            </tr>
+            <tr>
+                <td>Traitement des images</td>
+                <td>1.5</td>
+                <td><input type="number" id="control5"></td>
+                <td><input type="number" id="exam5"></td>
+                <td id="final5">0</td>
+            </tr>
+            <tr>
+                <td>Mesure de capteur (TP)</td>
+                <td>2</td>
+                <td>-</td>
+                <td><input type="number" id="exam6"></td>
+                <td id="final6">0</td>
+            </tr>
+            <tr>
+                <td>TP Microprocesseur</td>
+                <td>1</td>
+                <td>-</td>
+                <td><input type="number" id="exam12"></td>
+                <td id="final12">0</td>
+            </tr>
+            <tr>
+                <td>TP Traitement d'image</td>
+                <td>1</td>
+                <td>-</td>
+                <td><input type="number" id="exam7"></td>
+                <td id="final7">0</td>
+            </tr>
+            <tr>
+                <td>TP Traitement des signaux</td>
+                <td>1</td>
+                <td>-</td>
+                <td><input type="number" id="exam8"></td>
+                <td id="final8">0</td>
+            </tr>
+            <tr>
+                <td>Anatomie</td>
+                <td>1</td>
+                <td>-</td>
+                <td><input type="number" id="exam9"></td>
+                <td id="final9">0</td>
+            </tr>
+            <tr>
+                <td>Gestion hospitalière</td>
+                <td>1</td>
+                <td>-</td>
+                <td><input type="number" id="exam10"></td>
+                <td id="final10">0</td>
+            </tr>
+            <tr>
+                <td>Anglais technique</td>
+                <td>1</td>
+                <td>-</td>
+                <td><input type="number" id="exam11"></td>
+                <td id="final11">0</td>
+            </tr>
+        </tbody>
+    </table>
+    <button>حساب</button>
+    <h2>المجموع النهائي: <span id="total">0</span></h2>
+    <h2>المعدل النهائي: <span id="average">0</span></h2>
+
+    
+    <p>réalisé par : Ahmed Ammar  Amina Chaimaa</p>
+
+</body></html>
+------MultipartBoundary--Bj7YKF9OK0W2IneDySelAS3Nm41iZmxn6J5e6cr68g----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-f8398304-c869-4921-96a9-ea3625afc12d@mhtml.blink
+
+@charset "utf-8";
+
+body { font-family: Arial, sans-serif; direction: rtl; text-align: center; background-color: rgb(249, 249, 249); margin: 0px; }
+
+.header { height: 50px; display: flex; justify-content: center; align-items: center; box-shadow: rgba(10, 0, 10, 0.1) 10px 2px; }
+
+h2 { color: rgb(219, 147, 245); font-weight: bold; }
+
+table { width: 90%; margin: 20px auto; border-collapse: collapse; box-shadow: rgb(221, 221, 221) 0px 0px 10px; background-color: rgb(255, 255, 255); }
+
+th, td { border: 1px solid rgb(221, 221, 221); padding: 10px; text-align: center; }
+
+th { background-color: rgb(219, 147, 245); color: white; }
+
+input { width: 60px; text-align: center; border: 1px solid rgb(212, 215, 241); }
+
+button { padding: 10px 20px; background-color: rgb(219, 147, 245); color: white; border: none; cursor: pointer; font-size: 16px; border-radius: 5px; }
+
+button:hover { background-color: rgb(142, 68, 173); }
+
+#total, #average { color: rgb(0, 0, 0); font-weight: bold; }
+------MultipartBoundary--Bj7YKF9OK0W2IneDySelAS3Nm41iZmxn6J5e6cr68g------
